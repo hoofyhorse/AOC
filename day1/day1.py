@@ -1,4 +1,5 @@
-import re 
+import re
+
 def filereader(file_path : str):
     with open(file_path, "r") as infile:
         for in_line in infile:
